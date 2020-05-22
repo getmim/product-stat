@@ -4,7 +4,7 @@ return [
     'Product\\Model\\Product' => [
         'fields' => [
             'stat' => [
-                'type' => ' FLOAT',
+                'type' => 'FLOAT',
                 'length' => '3,2',
                 'attrs' => [
                     'unsigned' => TRUE,
@@ -45,7 +45,8 @@ return [
                 'type' => 'TINYINT',
                 'attrs' => [
                     'unsigned' => TRUE,
-                    'null' => FALSE
+                    'null' => FALSE,
+                    'default' => 0
                 ],
                 'index' => 4000
             ],
