@@ -40,7 +40,8 @@ return [
         'formats' => [
             'product' => [
                 'stat' => [
-                    'type' => 'number'
+                    'type' => 'number',
+                    'decimal' => 2
                 ]
             ],
             'product-stat' => [
